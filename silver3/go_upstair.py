@@ -16,4 +16,3 @@ if num_stair >= 3:
 print(sum_DP[num_stair])
 
 
-
