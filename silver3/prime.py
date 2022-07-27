@@ -1,3 +1,6 @@
+#Code by 정원균 
+#BaekJoon #1929
+
 def is_prime(n):
     if n < 2:
         return False

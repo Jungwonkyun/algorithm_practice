@@ -1,3 +1,6 @@
+#Code by 정원균 
+#BaekJoon #9095
+
 def plus(num):
 
     dp = [1,2,4]

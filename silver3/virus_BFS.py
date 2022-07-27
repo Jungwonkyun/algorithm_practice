@@ -1,4 +1,6 @@
-# #2606 virus solved with DFS
+#Code by 정원균 
+#BaekJoon #2606 
+
 from collections import deque
 
 num_computer = int(input())

@@ -1,4 +1,5 @@
-
+#Code by 정원균 
+#BaekJoon #1003
 
 def fibonacci(num):
 

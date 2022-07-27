@@ -1,3 +1,6 @@
+#Code by 정원균 
+#BaekJoon #11726
+
 target = int(input())
 DP = [0]*1001 
 DP[1] = 1

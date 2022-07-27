@@ -1,4 +1,5 @@
-# #2606 virus solved with DFS
+#Code by 정원균 
+#BaekJoon #2606
 
 num_computer = int(input())
 pair_computer = int(input())

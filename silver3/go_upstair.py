@@ -1,3 +1,6 @@
+#Code by 정원균 
+#BaekJoon #2579
+
 num_stair = int(input())
 stair_list = [0 for i in range(301)]
 sum_DP = [0 for i in range(301)]

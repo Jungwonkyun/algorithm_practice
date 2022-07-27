@@ -1,3 +1,5 @@
+#Code by 정원균 
+#BaekJoon #1463
 
 def make_one(num):
 

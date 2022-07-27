@@ -1,3 +1,6 @@
+#Code by 정원균 
+#BaekJoon #15649
+
 from itertools import permutations
 
 N, M = map(int, input().split())
