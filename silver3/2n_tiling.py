@@ -10,5 +10,6 @@ DP[2] = 2
 for i in range(3,1001):
     DP[i] = DP[i-1]+DP[i-2]
 
+
 print(DP[target]%10007)
 
