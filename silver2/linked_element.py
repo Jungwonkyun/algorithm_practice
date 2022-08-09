@@ -14,7 +14,6 @@ def dfs(node):
 
     return None
 
-
 node, edge = map(int, input().split())
 visited = [0]*(node+1)
 graph = [[] for _ in range(node+1)]
