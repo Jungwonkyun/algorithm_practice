@@ -11,4 +11,5 @@ for i in range(5, 100):
 
 for i in range(test_case):
     case = int(input())
+    
     print(trinagle_DP[case-1])
