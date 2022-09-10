@@ -16,7 +16,6 @@ def plus(num):
             count+=1
         return dp[num-1]
 
-
 def main():
 
     test_case = int(input())
