@@ -5,7 +5,6 @@ for test_case in range(T):
     
     day = int(input())
     price_ary = list(map(int, input().split()))
-
     profit = 0
     
     #맨 뒤의 값을 max 값으로 잡는다 
