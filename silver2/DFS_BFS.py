@@ -11,7 +11,6 @@ def DFS(map_list, visited, vertex):
     for vtx in map_list[vertex]:
         if visited[vtx] == 0:
             DFS(map_list, visited, vtx)
-
     return None
 
 
