@@ -8,7 +8,7 @@ for i in range(test_case):
     #짝수 일 떄 
     if input_num%2 == 0:
         result = -input_num//2
-
+    #홀수 일 때
     else: 
         result = -(input_num//2)+input_num    
     
