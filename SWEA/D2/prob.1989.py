@@ -1,4 +1,3 @@
-
 test_case = int(input())
 check = 0
 
