@@ -12,4 +12,5 @@ for i in range(test_case):
         else:
             check = 1
 
+
     print("#{} {}".format(i+1,check))     
