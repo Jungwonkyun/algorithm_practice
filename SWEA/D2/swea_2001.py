@@ -10,7 +10,7 @@ for i in range(test_case):
 
     maximum = 0
 
-    for k in range(N-M+1):
+    for k in ranges(N-M+1):
         for l in range(N-M+1):
             temp = 0 
 
