@@ -5,7 +5,7 @@ N = int(input())
 apart = []
 results = []
 
-def DFS(apart,y,x):
+def DFS(y,x):
     global result 
     apart[y][x] = -1
 
@@ -18,9 +18,8 @@ def DFS(apart,y,x):
         
         if 0<=nx<len(apart[0]) and 0<=ny<len(apart) and apart[ny][nx] == 1 :
             result += 1 
-            DFS(apart,ny,nx)
+            DFS(ny,nx)
             
-
     return result
 
 
@@ -36,7 +35,7 @@ for y in range(N):
         node = apart[y][x]
         if node == 1:
             result = 1 
-            results.append(DFS(apart,y,x))
+            results.append(DFS(y,x))
             cnt+=1 
         
 print(cnt)
