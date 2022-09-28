@@ -1,0 +1,7 @@
+{
+    "prettier.arrowParens": "avoid",
+    "editor.glyphMargin": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true
+}
