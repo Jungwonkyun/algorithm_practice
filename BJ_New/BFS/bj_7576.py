@@ -11,7 +11,6 @@ def bfs():
     dy = [-1,1,0,0]
 
     while tomato_queue:
-        print(tomato_queue)
         y,x = tomato_queue.popleft()
     
         for i in range(4):
