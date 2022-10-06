@@ -8,11 +8,12 @@ def bfs():
     q.append(N)
 
     while q:
+        print(q)
         x = q.popleft()
         if x == K:
             print(dist[K])
             break
-        
+
         next_list = [x-1, x+1, 2*x]
 
         for item in next_list:
