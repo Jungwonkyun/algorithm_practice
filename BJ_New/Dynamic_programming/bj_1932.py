@@ -26,4 +26,5 @@ for i in range(1, N+1):
         else:
             DP[i].append(max(DP[i-1][j-1], DP[i-1][j])+triangle[i][j])
 
+
 print(max(DP[N]))
