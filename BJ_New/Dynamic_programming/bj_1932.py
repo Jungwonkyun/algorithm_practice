@@ -5,7 +5,6 @@ DP = [[]for _ in range(N+1)]
 for _ in range(N):
     triangle.append(list(map(int, input().split())))
 
-
 for i in range(1, N+1):
     if i == 1:
         DP[1].append(triangle[1][0])
