@@ -26,4 +26,5 @@ for n in range(test_case):
             result = max(result, temp)
             list2.insert(0, 0)
 
+
     print("#{} {}".format(n+1, result))
