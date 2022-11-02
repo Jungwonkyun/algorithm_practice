@@ -16,4 +16,4 @@ for n in range(1, test_case+1):
             else:
                 DP[i][j] = max(DP[i-1][j], DP[i-1][j-calorie[i]]+score[i])
 
-    print("#{} {}".format(n,DP[N][L]))
+    print("#{} {}".format(n, DP[N][L]))
