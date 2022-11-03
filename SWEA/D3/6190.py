@@ -1,5 +1,6 @@
 test_case = int(input())
 
+
 def increase_check(number):
     check = True
     length = len(str(number))
