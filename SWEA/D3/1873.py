@@ -1,4 +1,3 @@
-
 test_case = int(input())
 control_dict = {"U": 0, "R": 1, "D": 2, "L": 3}
 tank_dir = {"U": "^", "R": ">", "D": "v", "L": "<"}
