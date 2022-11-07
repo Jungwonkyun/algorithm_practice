@@ -1,5 +1,4 @@
 T = 10  # 테케는 10개
-
 for test_case in range(1, T + 1):
     input()  # 테케 번호 받기
     N = 100
