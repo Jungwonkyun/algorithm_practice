@@ -22,5 +22,4 @@ for t in range(1, test_case+1):
                     # 같은 정점 다시 돌아야 하니까 다시 방문처리 초기화 해야한다.
                     visited[node] = False
         dfs(i, 1)
-
     print("#{} {}".format(t, result))
